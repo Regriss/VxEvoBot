@@ -6,6 +6,8 @@ from discord.ext.commands import Bot
 import asyncio
 import os
 
+api = str(os.environ.get('RIOT_KEY'))
+
 bot = commands.Bot(command_prefix='^')
 bot.remove_command("help")
 
