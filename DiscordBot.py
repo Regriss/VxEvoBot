@@ -111,4 +111,4 @@ async def crea(ctx, channel_type, name):
     except Exception as e:
         await bot.say('Impossibile creare la stanza'.format(e))
 
-bot.run("NDYxMTM2NDIzMTUyNjQ4MjAy.Dhg4qA.3eqUcAM2nw0a7mmP4qrCo0Hbsgk")
+bot.run("BOT_TOKEN")
