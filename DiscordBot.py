@@ -114,4 +114,4 @@ async def clear(ctx, amount=100):
     await bot.delete_messages(messages)
     await bot.say("Messaggi {} cancellati.", delete_after=2)
 
-bot.run("NDYxMTM2NDIzMTUyNjQ4MjAy.Dhg4qA.3eqUcAM2nw0a7mmP4qrCo0Hbsgk")
+bot.run("TOKEN")
