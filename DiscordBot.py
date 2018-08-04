@@ -110,4 +110,4 @@ async def clear(ctx, amount=100):
     else:
         await bot.send_message(ctx.message.channel, "Devi avere il ruolo Admin per usare questo comando!")
 
-bot.run("NDYxMTM2NDIzMTUyNjQ4MjAy.Dj_ERg.GXcRVJXbGYuGM-OvCmlugXhgCKo")
+bot.run(process.env.BOT_TOKEN);
